@@ -1,0 +1,64 @@
+{
+    "mesi": [
+        {
+            "mese": "Gennaio",
+            "documenti": 32,
+            "importo": 26361
+        },
+        {
+            "mese": "Febbraio",
+            "documenti": 12,
+            "importo": 24276
+        },
+        {
+            "mese": "Marzo",
+            "documenti": 20,
+            "importo": 4955
+        },
+        {
+            "mese": "Aprile",
+            "documenti": 6,
+            "importo": 10794
+        },
+        {
+            "mese": "Maggio",
+            "documenti": 49,
+            "importo": 24424
+        },
+        {
+            "mese": "Giugno",
+            "documenti": 35,
+            "importo": 18707
+        },
+        {
+            "mese": "Luglio",
+            "documenti": 32,
+            "importo": 7659
+        },
+        {
+            "mese": "Agosto",
+            "documenti": 4,
+            "importo": 26966
+        },
+        {
+            "mese": "Settembre",
+            "documenti": 40,
+            "importo": 49205
+        },
+        {
+            "mese": "Ottobre",
+            "documenti": 32,
+            "importo": 6811
+        },
+        {
+            "mese": "Novembre",
+            "documenti": 22,
+            "importo": 3393
+        },
+        {
+            "mese": "Dicembre",
+            "documenti": 9,
+            "importo": 11540
+        }
+    ]
+}

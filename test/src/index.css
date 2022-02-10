@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+/* ------ General Table ------ */
+
+.tab {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 973px;
+  height: 110px;
+  left: 208px;
+  top: 257px;
+  border-bottom: 1px solid #EBECF0;
+  border-right: 1px solid #EBECF0;
+}
+
+/* ------ Monhts ------ */
+
+.month {
+  position: static;
+  width: 80px;
+  height: 110px;
+  top: 0px;
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.month--each {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 1px;
+  bottom: 80px;
+}
+
+.mont--each__name {
+  position: relative;
+  height: 18px;
+  width: 80px;
+  left: 8px;
+  right: 0px;
+  top: 7px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #0D97D5;
+}
+
+.text {
+  position: relative;
+  width: 64px;
+  height: 36px;
+  left: 8px;
+  top: 57px;
+}
+
+.quantity {
+  position: relative;
+  height: 18px;
+  left: 8px;
+  right: 8px;
+  top: -7px;
+  bottom: 25px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #6F7E86;
+}
+
+.import {
+  position: relative;
+  height: 18px;
+  left: 8px;
+  right: 8px;
+  bottom: 7px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #00875A;
+}
+
+.back--green {
+  position: absolute;
+  width: 81px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: #E0F1EB;
+  z-index: -5;
+}
+
+.top--line {
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #EBECF0;
+}
+
+.bottom--line {
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: 30px;
+  background: #EBEDEE;
+}
+
+/* ------ Divider line ------ */
+
+.divider {
+  position: static;
+  width: 1px;
+  height: 110px;
+  top: 0px;
+  background: #EBEDEE;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+/* ------ Selectors ------ */
+
+.selector--blue {
+  position: relative;
+  width: 81px;
+  height: 3px;
+  left: 0px;
+  top: 55px;
+  background-color: #0D97D5;
+}
+
+.selector--green {
+  position: relative;
+  width: 81px;
+  height: 3px;
+  left: 0px;
+  top: 55px;
+  background-color: #008a3e;
+}
